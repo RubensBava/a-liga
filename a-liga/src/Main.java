@@ -15,12 +15,8 @@ public class Main {
         h.mostrar();
 
 
-        Personagem p = new Personagem() {
+        //Personagem p = new Personagem() {
             
-        };
-
+        //}
     }
-
-
-    
 }
