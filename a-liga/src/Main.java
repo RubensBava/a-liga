@@ -5,10 +5,11 @@ public class Main {
         h.sexo = 1;
         h.altura = 1.75;
         h.identidadeSecreta = true;
-        h.habilidades = new String[]{"super força", "visão de raio-x", "voar", "super velocidade", "sopro congelante"};
+        h.habilidades = new String[]{"super força", "visão de raio-x", "voar",
+                "super velocidade", "sopro congelante"};
         h.mostrar();
 
-        // vilao consegue fazer isso pq?
+        // O vilão consegue fazer isto. Por quê?
         h.altura = -300;
         h.nome = "";
         h.mostrar();
