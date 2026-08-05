@@ -1,6 +1,6 @@
 public abstract class Personagem {
     private String nome;
-    private enum sexo { MULHER, HOMEM, OUTRO, PREFIRO_NAO_DIZER };
+    private int sexo;                // 1=Mulher, 2=Homem, 3=Outro, 4=Prefiro não dizer
     private double altura;
 
     public String getNome() {
